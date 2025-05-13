@@ -46,5 +46,5 @@ export type MovieResponseValidationResult =
   | {
       success: false;
       errorType: "unknown";
-      data: any;
+      data: unknown;
     };
